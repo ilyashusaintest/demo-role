@@ -1,0 +1,10 @@
+---
+- name: Role Playbook
+  hosts: f5
+  connection: local
+  gather_facts: no
+
+  tasks:
+
+  - include_role:
+      name: focrensh.f5_role_facts
